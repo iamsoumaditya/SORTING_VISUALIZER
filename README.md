@@ -1,7 +1,7 @@
 <div align="left" style="position: relative;">
 <h1>SORTING_VISUALIZER</h1>
 <p align="center">
-    <img src="https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/main/image.png" align="center" width="30%">
+    <img src="https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/main/image.png" align="center" width="70%">
 </p>
 
 <p align="left">
