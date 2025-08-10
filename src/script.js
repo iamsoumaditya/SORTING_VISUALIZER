@@ -42,6 +42,7 @@ inputs.forEach((input, index) => {
   input.addEventListener("input", (e) => {
     let val = (e.target.value = e.target.value.replace(/\D/g, ""));
     arr[index] = Number(val) || 0;
+    originalArr[index] = arr[index];
     updateBars();
 
     if (val.length === 2 && index < inputs.length - 1) {
@@ -146,4 +147,5 @@ updateBars();
 function resetArray() {
   arr = [...originalArr];
   updateBars();
+
 }
