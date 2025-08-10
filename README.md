@@ -65,11 +65,11 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER.git/blob/master/package-lock.json'>package-lock.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ JSON File </code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER.git/blob/master/package.json'>package.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ dependencies</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -80,19 +80,19 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/master/src/output.css'>output.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯Main CSS file</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/master/src/input.css'>input.css</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ Tailwind</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/master/src/script.js'>script.js</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯JS File</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/master/src/index.html'>index.html</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
+				<td><code>❯ HTML file</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -138,7 +138,7 @@ Install SORTING_VISUALIZER using one of the following methods:
 ---
 ##  Project Roadmap
 
-- [X] **`Task 1`**: Implement Bubble, Selection, Insertion Sort.</strike>
+- [X] **`Task 1`**: <strike>Implement Bubble, Selection, Insertion Sort.</strike>
 - [ ] **`Task 2`**: Implement Quick & Merge Sort.
 - [ ] **`Task 3`**: Implement Time Complexity Analysis.
 
