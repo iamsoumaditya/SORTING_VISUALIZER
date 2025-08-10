@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Sorting Visualizer</title>
+  </head>
+  <body class="bg-gray-200 flex flex-col h-screen justify-between">
+    <header>
+      <div class="min-h-50 bg-slate-800 flex flex-wrap place-content-around">
+        <div class="m-6 p-4 bg-gray-700 rounded-lg flex flex-col">
+          <label for="Array" class="text-2xl text-amber-100 font-bold"
+            >Array
+          </label>
+          <div class="flex flex-row flex-wrap" id="array-inputs">
+            <input
+              type="text"
+              class="w-12 h-12 m-2 text-center text-xl font-extrabold text-slate-900 bg-slate-100 border hover:border-slate-200 appearance-none rounded p-1 outline-none"
+              pattern="\d*"
+              maxlength="2"
+              inputmode="numeric"
+              value="32"
+            />
+            <input
+              type="text"
+              class="w-12 h-12 m-2 text-center text-xl font-extrabold text-slate-900 bg-slate-100 border hover:border-slate-200 appearance-none rounded p-1 outline-none"
+              pattern="\d*"
+              maxlength="2"
+              inputmode="numeric"
+              value="7"
+            />
+            <input
+              type="text"
+              class="w-12 h-12 m-2 text-center text-xl font-extrabold text-slate-900 bg-slate-100 border hover:border-slate-200 appearance-none rounded p-1 outline-none"
+              pattern="\d*"
+              maxlength="2"
+              inputmode="numeric"
+              value="19"
+            />
+            <input
+              type="text"
+              class="w-12 h-12 m-2 text-center text-xl font-extrabold text-slate-900 bg-slate-100 border hover:border-slate-200 appearance-none rounded p-1 outline-none"
+              pattern="\d*"
+              maxlength="2"
+              inputmode="numeric"
+              value="3"
+            />
+            <input
+              type="text"
+              class="w-12 h-12 m-2 text-center text-xl font-extrabold text-slate-900 bg-slate-100 border hover:border-slate-200 appearance-none rounded p-1 outline-none"
+              pattern="\d*"
+              maxlength="2"
+              inputmode="numeric"
+              value="88"
+            />
+          </div>
+        </div>
+        <div class="m-2 p-4 rounded-lg flex flex-col">
+          <button id="bubble-sort-btn" 
+            class="relative cursor-pointer py-4 px-8 text-center font-barlow inline-flex justify-center text-base uppercase text-white outline-none rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden"
+          >
+            <span class="relative z-20">Bubble Sort</span>
+
+            <span
+              class="absolute left-[-75%] top-0 h-full w-[50%] bg-white/20 rotate-12 z-10 blur-lg group-hover:left-[125%] transition-all duration-1000 ease-in-out"
+            ></span>
+
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[20%] rounded-tl-lg border-l-2 border-t-2 top-0 left-0"
+            ></span>
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute group-hover:h-[90%] h-[60%] rounded-tr-lg border-r-2 border-t-2 top-0 right-0"
+            ></span>
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[60%] group-hover:h-[90%] rounded-bl-lg border-l-2 border-b-2 left-0 bottom-0"
+            ></span>
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[20%] rounded-br-lg border-r-2 border-b-2 right-0 bottom-0"
+            ></span>
+          </button>
+        </div>
+        <div class="m-2 p-4 rounded-lg flex flex-col">
+          <button id="selection-sort-btn"
+            class="relative cursor-pointer py-4 px-8 text-center font-barlow inline-flex justify-center text-base uppercase text-white outline-none rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden"
+          >
+            <span class="relative z-20">Selection Sort</span>
+
+            <span
+              class="absolute left-[-75%] top-0 h-full w-[50%] bg-white/20 rotate-12 z-10 blur-lg group-hover:left-[125%] transition-all duration-1000 ease-in-out"
+            ></span>
+
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[20%] rounded-tl-lg border-l-2 border-t-2 top-0 left-0"
+            ></span>
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute group-hover:h-[90%] h-[60%] rounded-tr-lg border-r-2 border-t-2 top-0 right-0"
+            ></span>
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[60%] group-hover:h-[90%] rounded-bl-lg border-l-2 border-b-2 left-0 bottom-0"
+            ></span>
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[20%] rounded-br-lg border-r-2 border-b-2 right-0 bottom-0"
+            ></span>
+          </button>
+        </div>
+        <div class="m-2 p-4 rounded-lg flex flex-col">
+          <button id="insertion-sort-btn"
+            class="relative cursor-pointer py-4 px-8 text-center font-barlow inline-flex justify-center text-base uppercase text-white outline-none rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden"
+          >
+            <span class="relative z-20">Insertion Sort</span>
+
+            <span
+              class="absolute left-[-75%] top-0 h-full w-[50%] bg-white/20 rotate-12 z-10 blur-lg group-hover:left-[125%] transition-all duration-1000 ease-in-out"
+            ></span>
+
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[20%] rounded-tl-lg border-l-2 border-t-2 top-0 left-0"
+            ></span>
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute group-hover:h-[90%] h-[60%] rounded-tr-lg border-r-2 border-t-2 top-0 right-0"
+            ></span>
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[60%] group-hover:h-[90%] rounded-bl-lg border-l-2 border-b-2 left-0 bottom-0"
+            ></span>
+            <span
+              class="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[20%] rounded-br-lg border-r-2 border-b-2 right-0 bottom-0"
+            ></span>
+          </button>
+        </div>
+        <div class="m-2 p-4 rounded-lg flex flex-col hidden sm:block">
+            <button class=" h-12 w-16 rounded-lg bg-gray-700 text-white font-bold" onclick="resetArray()">
+                Reset
+            </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div
+        class="m-6 p-4 bg-zinc-300 rounded-lg self-center flex items-end justify-between min-h-48 w-auto max-w-md mx-auto gap-4"
+      >
+        
+      </div>
+    </main>
+    <footer class=" mt-6 p-4 bg-gray-700 flex justify-center">
+        <p class="sm:text-2xl text-lg text-white">Made with <img style="display: inline;" width="25" height="25" src="https://img.icons8.com/fluency/48/like.png" alt="like"/> By Soumaditya Roy</p>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
