@@ -1,5 +1,9 @@
 <div align="left" style="position: relative;">
 <h1>SORTING_VISUALIZER</h1>
+<p align="center">
+  <img src=https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/main/image.png" alt="Sorting Visualizer" width="500">
+</p>
+
 <p align="left">
 	<img src="https://img.shields.io/github/license/iamsoumaditya/SORTING_VISUALIZER?style=default&logo=opensourceinitiative&logoColor=white&color=00ff09" alt="license">
 	<img src="https://img.shields.io/github/last-commit/iamsoumaditya/SORTING_VISUALIZER?style=default&logo=git&logoColor=white&color=00ff09" alt="last-commit">
