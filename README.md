@@ -1,14 +1,10 @@
 <div align="left" style="position: relative;">
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
-<h1>SORTING_VISUALIZER.GIT</h1>
+<h1>SORTING_VISUALIZER</h1>
 <p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
-</p>
-<p align="left">
-	<img src="https://img.shields.io/github/license/iamsoumaditya/SORTING_VISUALIZER.git?style=default&logo=opensourceinitiative&logoColor=white&color=00ff09" alt="license">
-	<img src="https://img.shields.io/github/last-commit/iamsoumaditya/SORTING_VISUALIZER.git?style=default&logo=git&logoColor=white&color=00ff09" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/iamsoumaditya/SORTING_VISUALIZER.git?style=default&color=00ff09" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/iamsoumaditya/SORTING_VISUALIZER.git?style=default&color=00ff09" alt="repo-language-count">
+	<img src="https://img.shields.io/github/license/iamsoumaditya/SORTING_VISUALIZER?style=default&logo=opensourceinitiative&logoColor=white&color=00ff09" alt="license">
+	<img src="https://img.shields.io/github/last-commit/iamsoumaditya/SORTING_VISUALIZER?style=default&logo=git&logoColor=white&color=00ff09" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/iamsoumaditya/SORTING_VISUALIZER?style=default&color=00ff09" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/iamsoumaditya/SORTING_VISUALIZER?style=default&color=00ff09" alt="repo-language-count">
 </p>
 <p align="left"><!-- default option, no dependency badges. -->
 </p>
@@ -34,13 +30,13 @@
 
 ##  Overview
 
-<code>❯ REPLACE-ME</code>
+<code>❯ A efficient Sorting Visualizer that helps understand the algorithm of different Sorting algorithm like Bubble Sort, Selection Sort, Insertion Sort</code>
 
 ---
 
 ##  Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯ Buble Sort, Selction Sort, Insertion Sort</code>
 
 ---
 
@@ -83,19 +79,19 @@
 		<blockquote>
 			<table>
 			<tr>
-				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER.git/blob/master/src/output.css'>output.css</a></b></td>
+				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/master/src/output.css'>output.css</a></b></td>
 				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER.git/blob/master/src/input.css'>input.css</a></b></td>
+				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/master/src/input.css'>input.css</a></b></td>
 				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER.git/blob/master/src/script.js'>script.js</a></b></td>
+				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/master/src/script.js'>script.js</a></b></td>
 				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
-				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER.git/blob/master/src/index.html'>index.html</a></b></td>
+				<td><b><a href='https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/master/src/index.html'>index.html</a></b></td>
 				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
@@ -116,7 +112,7 @@ Before getting started with SORTING_VISUALIZER.git, ensure your runtime environm
 
 ###  Installation
 
-Install SORTING_VISUALIZER.git using one of the following methods:
+Install SORTING_VISUALIZER using one of the following methods:
 
 **Build from source:**
 
@@ -175,8 +171,8 @@ Install SORTING_VISUALIZER.git using one of the following methods:
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/iamsoumaditya/SORTING_VISUALIZER.git/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=iamsoumaditya/SORTING_VISUALIZER.git">
+   <a href="https://github.com{/iamsoumaditya/SORTING_VISUALIZER/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=iamsoumaditya/SORTING_VISUALIZER">
    </a>
 </p>
 </details>
