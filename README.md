@@ -185,7 +185,7 @@ Install SORTING_VISUALIZER.git using one of the following methods:
 
 ##  License
 
-This project is protected under the MIT. License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the MIT. License. For more details, refer to the [LICENSE](https://github.com/iamsoumaditya/SORTING_VISUALIZER/blob/main/LICENSE) file.
 
 ---
 
